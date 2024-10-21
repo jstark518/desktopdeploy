@@ -1541,10 +1541,12 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/node@*", "@types/node@^18.11.18":
-  version "18.15.11"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.15.11.tgz#b3b790f09cb1696cffcec605de025b088fa4225f"
-  integrity sha512-E5Kwq2n4SbMzQOn6wnmBjuK9ouqlURrcZDVfbo9ftDDTFt3nk7ZKK4GMOzoYgnpQJKcxwQw+lGaBvvlMo0qN/Q==
+"@types/node@*", "@types/node@^20.9.0":
+  version "20.16.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.16.13.tgz#148c152d757dc73f8d65f0f6f078f39050b85b0c"
+  integrity sha512-GjQ7im10B0labo8ZGXDGROUl9k0BNyDgzfGpb4g/cl+4yYDWVKcozANF4FGr4/p0O/rAkQClM6Wiwkije++1Tg==
+  dependencies:
+    undici-types "~6.19.2"
 
 "@types/node@^12.7.1":
   version "12.20.55"
@@ -3085,13 +3087,13 @@ electron-winstaller@^5.0.0:
     lodash.template "^4.2.2"
     temp "^0.9.0"
 
-electron@24.7.1:
-  version "24.7.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-24.7.1.tgz#62b6f7e444f99909e738afae1e3a5a38f9581bba"
-  integrity sha512-v7nMXqTl5e1sudOMe5P77ofb6WOKCCTOqBrxVwwBRvShm5udFa2EkNrzYpO53w2fdIVlKbfLhD5DdlmYAROGvQ==
+electron@33.0.1:
+  version "33.0.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-33.0.1.tgz#6e990077eb27d0d3dc9a0c424271a2f10c202263"
+  integrity sha512-PipPnWH4gvf7o+P8jlKQZGgPfb5eHcLgTrnKkFzb98MXhyPjVJYCR7YWqcawZ8IfyJCut8vMxLuBFLT1Ag8TSQ==
   dependencies:
     "@electron/get" "^2.0.0"
-    "@types/node" "^18.11.18"
+    "@types/node" "^20.9.0"
     extract-zip "^2.0.1"
 
 emoji-regex@^8.0.0:
@@ -6839,6 +6841,11 @@ unbox-primitive@^1.0.2:
     has-bigints "^1.0.2"
     has-symbols "^1.0.3"
     which-boxed-primitive "^1.0.2"
+
+undici-types@~6.19.2:
+  version "6.19.8"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 unique-filename@^2.0.0:
   version "2.0.1"
